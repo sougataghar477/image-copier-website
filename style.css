@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    position: relative;
+    /* top:-60px; */
+}
+a{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 48px;
+    text-decoration: none;
+     transition: .2s ease-in-out;
+}
+a:hover{
+    color:black;
+    background-color: white;
+}
+.buttons-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    justify-content: center;
+}
+.description{
+   padding: 12px;
+    font-size: 24px;
+    margin: 24px;
+     line-height: 1.6;
+}
+@media only screen and (min-width: 600px) {
+ .description{
+    width: 60ch;
+ }
+  }
+  .border{
+    border: 2px solid white;
+  }
