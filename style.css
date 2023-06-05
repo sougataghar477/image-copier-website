@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #222;
+    background-color: #1a202c;
     color:white;
     padding: 20px;
     text-align: center;
@@ -17,7 +17,6 @@ body{
 h1{
     font-size: 48px;
     position: relative;
-    /* top:-60px; */
 }
 a{
     background-color: transparent;
