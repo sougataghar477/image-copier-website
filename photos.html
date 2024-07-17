@@ -22,7 +22,7 @@
 <h3>Click on the thumbnails to change a picture and hover over the bigger image to make it bigger</h3>
    <script>
     let image=document.querySelector('.image');
-    Array.from(document.querySelector('.thumbnail-gallery').children).forEach((photo) => {
+    [...document.querySelector('.thumbnail-gallery').children].forEach((photo) => {
     photo.addEventListener('click', (e) => {
         image.src=e.target.src;
     });
