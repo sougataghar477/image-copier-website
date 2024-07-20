@@ -15,8 +15,7 @@ body{
     text-align: center;
 }
 header{
-    position: absolute;
-    top: 32px;
+    margin-bottom: 24px;
 }
 h1{
     font-size: 48px;
