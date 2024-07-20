@@ -12,6 +12,7 @@
    <header>
     <a class="header-link" href="index.html">Home</a>
     <a class="header-link" href="photos.html">Photos</a>
+    <a class="header-link" href="contacts.html">Contact Us</a>
    </header>
    <img class="image" width="600px" src="https://lh3.googleusercontent.com/JPho1f9udQnwQ5OdWLfkWNLmuKWdr4C8B-OASoMeK19ma0Iuf_lAFw1NHybkM0Njuu69kPf6uAQfeoqmgeF8VLQvdw=s1280-w1280-h800"/>
    <div class="thumbnail-gallery">
@@ -21,9 +22,9 @@
 </div>
 <h3>Click on the thumbnails to change a picture and hover over the bigger image to make it bigger</h3>
    <script>
-    let image=document.querySelector('.image');
-    [...document.querySelector('.thumbnail-gallery').children].forEach((photo) => {
-    photo.addEventListener('click', (e) => {
+        let image=document.querySelector('.image');
+        [...document.querySelector('.thumbnail-gallery').children].forEach((photo) => {
+        photo.addEventListener('click', (e) => {
         image.src=e.target.src;
     });
 });

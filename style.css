@@ -39,6 +39,7 @@ a:hover{
     text-decoration: underline;
 }
 .buttons-section{
+    margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
     gap:16px;
@@ -47,7 +48,7 @@ a:hover{
 .description{
    padding: 12px;
     font-size: 24px;
-    margin: 24px;
+ 
      line-height: 1.6;
 }
 @media only screen and (min-width: 600px) {
@@ -65,4 +66,22 @@ margin: 16px;
 .image:hover{
     transition: .5s;
 transform: scale(2);
+}
+.offer li{
+font-size: 24px;
+margin-bottom: 16px;
+}
+.offer a{
+    padding: 0;
+    border: none;
+    text-decoration:underline ;
+}
+h2{
+    margin:16px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
 }
