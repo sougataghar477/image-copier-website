@@ -29,6 +29,7 @@ a{
     padding: 16px 48px;
     text-decoration: none;
      transition: .2s ease-in-out;
+     font-size: 20px;
 }
 a:hover{
     color:black;
@@ -83,5 +84,5 @@ section{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    
+
 }
